@@ -11,10 +11,36 @@ body {
 }
 
 .wrapper {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
 }
 
 .flex-item:not(last-child) {
   margin-bottom: 20px;
+}
+
+.item-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-wrapper {
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-wrapper {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-wrapper span {
+  display: block;
+  font-style: italic;
+  background-color: #BEBEBE;
+  padding: 20px;
 }

@@ -1,7 +1,7 @@
 .button {
-  display: inline-block;
+  display: block;
   outline: none;
-  text-align: center; 
+  min-width: 282px;
   color: #ffff;
   background-color: #F6400f;
   padding: 20px 32px;
@@ -46,6 +46,7 @@
   display: inline-block;
   vertical-align: middle;
   margin-right: 18px;
+  transition: .3s;
 }
 
 .button__icon--right {
@@ -54,5 +55,5 @@
   display: inline-block;
   vertical-align: middle;
   margin-left: 24px;
+  transition: .3s;
 }
-
